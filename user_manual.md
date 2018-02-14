@@ -16,6 +16,7 @@ In this document you'll learn how to set up your first device and how use the Co
 sudo raspi-config
 ```
 You may have to reboot the board after changing the hostname.
+
 3. Install required packages.
 ```
 sudo apt update
