@@ -82,7 +82,7 @@ make[1]: Leaving directory '/home/pi/cnld'
 ```
 
 #### Step 2
-The installation script will generate pairs of ssh keys for the default user and the root user. These keys will allow SSH communication between the device and the CnL server. We recommend to leave the keys in their default paths. If you generated the keys previously, there is no need to generate them again, just answer 'no' if asked to overwrite the keys. **NOTE** that the root public key is only used to deploy your application from your repository, because the `cnld` daemon is a system service and executes `git` as the root user. It will not be used to login to your device as root. The 'PermitRootLogin' setting should be disabled by default in the SSH server configuration of the device (typically `/etc/ssh/sshd_config`).
+The installation script will generate pairs of ssh keys for the default user. These keys will allow SSH communication between the device and the CnL server. If you generated the keys previously, there is no need to generate them again, just answer 'no' if asked to overwrite the keys.
 
 ```
 ********************************************************
@@ -90,20 +90,11 @@ The installation script will generate pairs of ssh keys for the default user and
 *** If you want to keep the current key answer 'no'. ***
 ********************************************************
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/pi/.ssh/id_rsa):
 Created directory '/home/pi/.ssh'.
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
-Your identification has been saved in /home/pi/.ssh/id_rsa.
-Your public key has been saved in /home/pi/.ssh/id_rsa.pub.
-[...]
-Generating public/private rsa key pair.
-Enter file in which to save the key (/root/.ssh/id_rsa):
-Created directory '/root/.ssh'.
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /root/.ssh/id_rsa.
-Your public key has been saved in /root/.ssh/id_rsa.pub.
+Your identification has been saved in /home/pi/.ssh/id_rsa.cnl.
+Your public key has been saved in /home/pi/.ssh/id_rsa.cnl.pub.
 [...]
 ```
 #### Step 3
