@@ -5,7 +5,7 @@ In this document you'll learn how to set up your first device and how use the Co
 ## What you'll need
 
 - [ ] A **Raspberry Pi** board connected to the Internet and accesible via SSH. See RPi's [official documentation](https://www.raspberrypi.org/documentation/setup/) and [SSH setup](https://www.raspberrypi.org/documentation/remote-access/ssh/) if you have doubts. *We tested other Linux SBC's but we recommend start with a Raspberry Pi*.
-- [ ] A Code 'n Load account. If you don't have one, you can [request an invitation](https://www.codenload.com/#contact).
+- [ ] A Code 'n Load account. If you don't have one, you can [request an invitation](https://www.codenload.com/#contact). Then login to [Control Panel](https://www.codenload.com/cnl) and change your password.
 - [ ] Your PC/smartphone/tablet with Internet access and SSH client to connect to the device.
 
 ## Device setup
