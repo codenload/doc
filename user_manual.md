@@ -4,9 +4,9 @@ In this document you'll learn how to set up your first device and how use the Co
 
 ## What you'll need
 
-- [ ] A **Raspberry Pi** board connected to the Internet and accesible via SSH. See RPi's [official documentation](https://www.raspberrypi.org/documentation/setup/) and [SSH setup](https://www.raspberrypi.org/documentation/remote-access/ssh/) if you have doubts. *We tested other Linux SBC's but we recommend start with a Raspberry Pi*.
-- [ ] A Code 'n Load account. If you don't have one, you can [request an invitation](https://www.codenload.com/#contact). Then login to [Control Panel](https://www.codenload.com/cnl) and change your password.
-- [ ] Your PC/smartphone/tablet with Internet access and SSH client to connect to the device.
+- A **Raspberry Pi** board connected to the Internet and accesible via SSH. See RPi's [official documentation](https://www.raspberrypi.org/documentation/setup/) and [SSH setup](https://www.raspberrypi.org/documentation/remote-access/ssh/) if you have doubts. *We tested other Linux SBC's but we recommend start with a Raspberry Pi*.
+- A Code 'n Load account. If you don't have one, you can [request an invitation](https://www.codenload.com/#contact). Then login to [Control Panel](https://www.codenload.com/cnl) and change your password. You'll see a screen saying you have no devices registered and a link to this guide.
+- Your PC/smartphone/tablet with Internet access and SSH client to connect to the device.
 
 ## Device setup
 
@@ -139,6 +139,9 @@ OK(0)
 *************
 ```
 #### Step 4
+
+> Remember to access to Control Panel and change your password! See above.
+
 At this point the installation will ask you if you want to register the device. In order to control it from the Code 'n Load Control Panel, you should choose 'Yes'. If you choose 'No' you still will be able to control your device using CnL commands connecting to it directly via SSH, but it won't be accesible from the website.
 ```
 *** Do you want to register this device?
