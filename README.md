@@ -1,6 +1,8 @@
 # **Code 'n Load** Official Documentation
 
-This is the official documentation repository for Code 'n Load (CnL), alpha version.
+**Code 'n Load** -CnL- is a sofware development platform designed for the Internet-of-Things (IoT). CnL allows you to manage, monitor and control parameters of your device and the software it runs. You only have to setup the CnL daemon on your device and a git repository for the software you want to execute on the device. The daemon will monitor the repository for changes and update the software if needed.
+
+This is the official documentation repository for the alpha version.
 
 - [User manual and getting started guide](user_manual.md): Step-by-step guide for device setup and usage of the Control Panel, which allows you to deploy software on the device, control its execution and retreive real-time status.
 
