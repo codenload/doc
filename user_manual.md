@@ -37,6 +37,9 @@ make
 make install
 ```
 We'll see the installation procedure on the next section.
+> You can execute all commands in a single line like this:
+>
+> `sudo apt update; sudo apt install git netcat-openbsd libsystemd-dev autossh wiringpi -y; git clone https://github.com/codenload/cnld.git && cd cnld; make install`
 
 ## Installation procedure
 
